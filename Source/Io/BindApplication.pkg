@@ -1,0 +1,11 @@
+$#include <Urho3D/LuaScript/ToluaUtils.h>
+$#include "Application.h"
+
+$using namespace Urho3D;
+
+class PodApplication
+{
+    String GetCircuitName();
+}
+
+PodApplication* GetApplication();
